@@ -78,7 +78,7 @@ tags: N Education
 
 ### PH3-1 ベーシック制御
 下記のリンクへアクセスする際に、パスワード制御をかけてください：  
-[/test/](http://nssol-test.com/test/)
+[/test/](http://nxxxl-test.com/test/)
 
 
 ### PH3-2 リダイレクト
@@ -89,15 +89,15 @@ tags: N Education
 
 ### PH3-3 Virtual Host
 下記の要件で、設定してください
-* [http://nssol-test.com](http://nssol-test.com)  
+* [http://nxxxl-test.com](http://nxxxl-test.com)  
  * `/test1/index.html`を表示させてください
-* [http://nssol-test2.com](http://nssol-test2.com)
+* [http://nxxxl-test2.com](http://nxxxl-test2.com)
  * `/test2/index.html`を表示させてください
- * [http://www.nssol-test2.com](http://www.nssol-test2.com)も同じページを表示させてください。（ブラウザにて表示されるURLの変更はOK)
+ * [http://www.nxxxl-test2.com](http://www.nxxxl-test2.com)も同じページを表示させてください。（ブラウザにて表示されるURLの変更はOK)
  * アクセスパスワードをかけてください
 
 ### PH3-4 HTTPS
-* [https://nssol-test.com](https://nssol-test.com) へのアクセスを可能にしてください
+* [https://nxxxl-test.com](https://nxxxl-test.com) へのアクセスを可能にしてください
 
 ### 【WIP】 PH3-5 アクセス制御
 
