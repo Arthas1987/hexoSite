@@ -1,5 +1,116 @@
 ---
-title: Tech Problems
+title: 【WIP】技術勉強向けの課題
 date: 2017-11-11 17:50:55
-tags:
+tags: N Education
 ---
+# 初めに
+## Work In Progress!
+このページはWIPである。:sweat_drops:  
+作成済の項目は、【WIP】マークを取る。
+
+## 想定作業環境
+* CentOS 6 又は 7
+> ローカル仮想マシンでもOK  
+* Apache 2.4
+* Tomcat 8
+
+## 習得してもらいたい知識
+### Linux
+* 基本コマンド
+* パーミッション制御
+* ユーザー管理
+* 正規表現
+* シェル
+* スケジューリングタスク作成
+### Apache
+* 基本設定ファイルの記述方法
+* Virtual Host
+* アクセス制御
+### HTML
+* JSの書き方
+* CSSの書き方
+### その他
+* HTTP、HTTPSの通信仕組み
+* リモートAPIのコール
+
+# 技術課題
+## 技術課題PH1
+すでに解決済の為、実施したことのみ記述
+### ~~仮想マシン立ち上げ~~
+### ~~Apache 2.4環境構築~~
+### ~~ホストマシンとの疎通確認~~
+
+## 技術課題PH2
+### PH2習得目標
+- [ ] Linux環境にてユーザーグループの管理
+- [ ] Linux環境でのパーミッション制御
+- [ ] 管理者権限コントロールの考え方
+
+### PH2-1 下記の３つユーザーを作成してください
+|No|ユーザー名|ユーザーグループ|
+|:-----|:--------|:-----------|
+|1 | A-taro  | GrpA  |
+|2   |A-jiro   | GrpA  |
+|3   |B-sasuke   |GrpBとManager  |
+
+### PH2-2　下記のユーザーは、sudoコマンドを実行できるように設定してください
+* B-sasuke
+
+### PH2-3 下記の*フォルダ*を作成してください
+|No|パス|要件|
+|:-----|:--------|:-----------|
+| 1  | /tmp/taroDir  | 1.同じグループの人に書き込む権限が必要 <br> 2.グループ以外の人に、フォルダにアクセス(`/tmp/taroDir`)は禁止  |
+| 2  | /tmp/taroDir/secret  | 1. `A-taro` 以外はアクセス禁止 |
+| 3   | /tmp/jiroDir  | 1. 誰でもアクセス、書き込み可能  |
+| 4   | /tmp/sasukeDir  | 1. taroDirのシンボリックリンク(`ハードリンク`ではない)  |
+
+## 技術課題PH3
+### PH3習得目標
+- [ ] Apache基本設定ファイルの記述方法
+- [ ] ApacheのVirtual Host仕組み
+- [ ] Apacheのアクセス制御
+
+### PH3-1 ベーシック制御
+下記のリンクへアクセスする際に、パスワード制御をかけてください：  
+[/test/](http://nssol-test.com/test/)
+
+### PH3-2 リダイレクト
+下記の要件で、ページを作成し直してください  
+* `/test1/index.html`を作成してください
+* `/test2/index.html`を作成してください
+* `/test/` へアクセスする際に、ブラウザにて表示されるURLが変わらないままで、`/test1/index.html`のページを表示させてください
+
+### Virtual Host
+下記の要件で、設定してください
+* [http://nssol-test.com](http://nssol-test.com)  
+ * `/test1/index.html`を表示させてください
+* [http://nssol-test2.com](http://nssol-test2.com)
+ * `/test2/index.html`を表示させてください
+ * [http://www.nssol-test2.com](http://www.nssol-test2.com)も同じページを表示させてください。（ブラウザにて表示されるURLの変更はOK)
+ * アクセスパスワードをかけてください
+
+### HTTPS
+* [https://nssol-test.com](https://nssol-test.com) へのアクセスを可能にしてください
+
+### 【WIP】 アクセス制御
+
+### 【WIP】 HTTPヘッダー制御
+
+## 【WIP】 技術課題PH4
+### 【WIP】 PH4習得目標
+- [ ] JSの書き方
+- [ ] CSSの書き方
+
+### 【WIP】 PH4-1下記のページを真似して作成してください
+### 【WIP】 PH4-2下記のページを真似して作成してください
+### 【WIP】 PH4-3下記のページを真似して作成してください
+
+## 【WIP】 技術課題PH5
+### 【WIP】 PH5習得目標
+- [ ]  HTTP、HTTPSの通信仕組み
+- [ ]  リモートAPIのコール
+- [ ] 正規表現
+
+### 【WIP】 PH5-1 下記のサーバーステータス監視仕組みを作成してください
+### 【WIP】 PH5-2 SLACKの通知仕組みを作成してください
+### 【WIP】 PH5-3 URLの監視仕組みをアクセスしてください

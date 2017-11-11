@@ -6,15 +6,15 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "EZLippi"
+keywords: "sNow dAy"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: 
+rss:
 
 # Specify the date when the site was setup
-since: 2014
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -42,10 +42,10 @@ menu:
   tags: /tags
   about: /about
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  commonweal: /404.html
 
-#swiftype_key: F1mVLd_RPaPM-WhSr4A4 
-  
+#swiftype_key: F1mVLd_RPaPM-WhSr4A4
+
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -137,8 +137,9 @@ font:
   #LinkLabel: Link
 social:
   GitHub: https://github.com/Arthas1987
-  weibo: 
-  zhihu: 
+  weibo: https://weibo.com/u/1820692723
+  blog: http://150.95.172.80/
+  #zhihu:
   #Others:
 
 # Social Links Icons
@@ -153,7 +154,8 @@ social_icons:
   GitHub: github
   Twitter: twitter
   weibo: weibo
-  zhihu: battery-3 
+  zhihu: battery-3
+  blog: battery-3
 
 
 # Sidebar Avatar
@@ -201,16 +203,12 @@ sidebar:
   #Title: http://example.com/
 
 # title, chinese available
-links_title: 友情链接 
+links_title: Other Links
 # # links
 links:
-   Qisen Tang: 
-   szhshp的博客: 
-   JuniorCoder: 
-   Hippo: 
-   友链出租:   
+   Cool Shell: https://coolshell.cn/
 link_icons:
-  enable: true  
+  enable: true
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
@@ -242,9 +240,9 @@ post_meta:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-reward_comment: 
-wechatpay: 
-alipay: 
+reward_comment:
+wechatpay:
+alipay:
 
 # Wordcount
 word_count: true
@@ -259,7 +257,7 @@ word_count: true
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: true 
+  enabled: true
   image: /images/avatar.jpg
 
 # Code Highlight theme
@@ -289,7 +287,7 @@ baidu_analytics: 340874ba9357cbe81570aa4ac1185941
 
 # Duoshuo ShortName
 #duoshuo_shortname:
-duoshuo_shortname: ezlippi 
+duoshuo_shortname: sNow-dAy
 # Disqus
 #disqus_shortname:
 
