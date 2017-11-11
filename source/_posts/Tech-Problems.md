@@ -78,9 +78,8 @@ tags: N Education
 
 ### PH3-1 ベーシック制御
 下記のリンクへアクセスする際に、パスワード制御をかけてください：  
-```
 [/test/](http://nssol-test.com/test/)
-```
+
 
 ### PH3-2 リダイレクト
 下記の要件で、ページを作成し直してください  
@@ -88,7 +87,7 @@ tags: N Education
 * `/test2/index.html`を作成してください
 * `/test/` へアクセスする際に、ブラウザにて表示されるURLが変わらないままで、`/test1/index.html`のページを表示させてください
 
-### Virtual Host
+### PH3-3 Virtual Host
 下記の要件で、設定してください
 * [http://nssol-test.com](http://nssol-test.com)  
  * `/test1/index.html`を表示させてください
@@ -97,12 +96,12 @@ tags: N Education
  * [http://www.nssol-test2.com](http://www.nssol-test2.com)も同じページを表示させてください。（ブラウザにて表示されるURLの変更はOK)
  * アクセスパスワードをかけてください
 
-### HTTPS
+### PH3-4 HTTPS
 * [https://nssol-test.com](https://nssol-test.com) へのアクセスを可能にしてください
 
-### 【WIP】 アクセス制御
+### 【WIP】 PH3-5 アクセス制御
 
-### 【WIP】 HTTPヘッダー制御
+### 【WIP】 PH3-6 HTTPヘッダー制御
 
 ## 【WIP】 技術課題PH4
 ### 【WIP】 PH4習得目標
