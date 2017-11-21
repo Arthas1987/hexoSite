@@ -94,7 +94,7 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: "Yu Gothic"
+    family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
@@ -264,7 +264,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # ---------------------------------------------------------------
@@ -314,8 +314,8 @@ duoshuo_shortname: sNow-dAy
 #add_this_id:
 
 # Share
-duoshuo_share: true
-duoshuo_hotartical: true
+#duoshuo_share: true
+#duoshuo_hotartical: true
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
