@@ -1,7 +1,7 @@
 ---
 title: 解答例_課題PH2
 date: 2017-11-18 22:47:57
-tags: N-Education, Moe
+tags: [N, Education, mOeKa]
 ---
 ```
 Provided By mOeKa

@@ -1,7 +1,7 @@
 ---
 title: 【WIP】技術勉強向けの課題
 date: 2017-11-11 17:50:55
-tags: N Education
+tags: [Education, N]
 ---
 # 初めに
 ## Work In Progress!
