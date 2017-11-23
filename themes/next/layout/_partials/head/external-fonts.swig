@@ -46,6 +46,7 @@
     {% set font_families += '&subset=latin,latin-ext' %}
     {% set font_host = font_config.host | default('//fonts.googleapis.com') %}
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
   {% endif %}
 
 {% endif %}
