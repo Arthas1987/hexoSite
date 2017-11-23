@@ -206,7 +206,7 @@ macのターミナルを起動し、以下のファイルを編集
 255.255.255.255	broadcasthost
 
 # この行を追加！！
-192.168.56.101 nssol-test.com
+192.168.56.101 nxxxl-test.com
 
 ::1             localhost
 
@@ -221,5 +221,5 @@ eth2(ホストオンリーネットワーク)の`inet addr`に書かれている
 
 ### Macで表示
 Mac内のブラウザで  
-`http://nssol-test.com/test/`  
+`http://nxxxl-test.com/test/`  
 でアクセスして、「Hello world!」と表示されたら成功！
