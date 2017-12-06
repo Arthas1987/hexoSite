@@ -89,11 +89,11 @@ tags: [Education, N]
 
 ### PH3-3 Virtual Host
 下記の要件で、設定してください
-* [http://nxxxl-test.com](http://nxxxl-test.com)  
+* [http://nxxxl-test.com/test/](http://nxxxl-test.com/test/)  
  * `/test1/index.html`を表示させてください
-* [http://nxxxl-test2.com](http://nxxxl-test2.com)
+* [http://nxxxl-test2.com/test/](http://nxxxl-test2.com/test/)
  * `/test2/index.html`を表示させてください
- * [http://www.nxxxl-test2.com](http://www.nxxxl-test2.com)も同じページを表示させてください。（ブラウザにて表示されるURLの変更はOK)
+ * [http://www.nxxxl-test2.com/test/](http://www.nxxxl-test2.com/test/)も同じページを表示させてください。（ブラウザにて表示されるURLの変更はOK)
  * アクセスパスワードをかけてください
 
 ### PH3-4 HTTPS
