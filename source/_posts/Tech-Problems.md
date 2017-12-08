@@ -110,7 +110,8 @@ tags: [Education, N]
 | 5   | http://nxxxl-test.com/youshallnotpass/  | 1.誰でもアクセス禁止  |
 
 ### PH3-6 HTTPヘッダー制御
-3-5に加え、下記の要件を満たして設定する
+3-5に加え、下記の要件を満たして設定する  
+
 |No|パス|要件|
 |:-----|:--------|:-----------|
 | 1   |  http://nxxxl-test2.com/about/ | 1. `http://nxxxl-test.com/about/` から遷移した場合のみアクセス可能  |
