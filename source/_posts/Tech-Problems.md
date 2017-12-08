@@ -75,6 +75,7 @@ tags: [Education, N]
 * Apache基本設定ファイルの記述方法
 * ApacheのVirtual Host仕組み
 * Apacheのアクセス制御
+* 備考：なるべく`.htaccess`を利用しないように解答してみてください
 
 ### PH3-1 ベーシック制御
 下記のリンクへアクセスする際に、パスワード制御をかけてください：  
@@ -97,11 +98,24 @@ tags: [Education, N]
  * アクセスパスワードをかけてください
 
 ### PH3-4 HTTPS
-* [https://nxxxl-test.com](https://nxxxl-test.com) へのアクセスを可能にしてください
+* [https://nxxxl-test2.com/test/](https://nxxxl-test.com/test/) へのアクセスを可能にしてください
 
-### 【WIP】 PH3-5 アクセス制御
+### PH3-5 アクセス制御
+|No|パス|要件|
+|:-----|:--------|:-----------|
+| 1  | http://nxxxl-test.com/  | 1.誰でもアクセス可能  |
+| 2   | http://nxxxl-test.com/about/  |  1.Basic認証：下記のユーザーのみアクセス可能 </br> `root:123456` </br> `guest:guest`  <br> 2. URL書き換えて、`http://nxxxl-test2.com/about/` へリダイレクト|
+| 3   | http://nxxxl-test.com/secret/   | 1. localhostのみアクセス可能 <br> 2.localhost以外アクセス不可  |
+| 4   | https://nxxxl-test2.com/test/  |  1.Basic認証：下記のユーザーのみアクセス可能 </br> `root:123456` |
+| 5   | http://nxxxl-test.com/youshallnotpass/  | 1.誰でもアクセス禁止  |
 
-### 【WIP】 PH3-6 HTTPヘッダー制御
+### PH3-6 HTTPヘッダー制御
+3-5に加え、下記の要件を満たして設定する
+|No|パス|要件|
+|:-----|:--------|:-----------|
+| 1   |  http://nxxxl-test2.com/about/ | 1. `http://nxxxl-test.com/about/` から遷移した場合のみアクセス可能  |
+| 2   | http://nxxxl-test2.com/owner/  |  1. Chromeブラウザでアクセスする場合アクセス可能 <br> 備考：MacのSafari最新版からアクセスする時、禁止されればOK |
+
 
 ## 【WIP】 技術課題PH4
 ### 【WIP】 PH4習得目標
