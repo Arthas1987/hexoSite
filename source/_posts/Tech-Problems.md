@@ -120,17 +120,31 @@ tags: [Education, N]
 
 ## 【WIP】 技術課題PH4
 ### 【WIP】 PH4習得目標
-* JSの書き方
-* CSSの書き方
+* CSSの基本知識
+* CSSクラスの定義方法
+* CSS利用で開発するメリット
+* JSの基本知識
+* DOMの概念
+* イベントの概念
+* `Ajax`通信の基礎
+* JQueryの基本知識
+* JQuery Selectorの基本知識
+* (非必須) 他のJSフレームワーク：BootStrap
+* (非必須) 他のJSフレームワーク：Vue.js
 
-### 【WIP】 PH4-1下記のページを真似して作成してください
+### PH4-0 下記のサイトをさらっと目を通してください
+* [CSSチュートリアル](http://www.w3big.com/ja/css/default.html)
+* [JSチュートリアル](http://www.w3big.com/ja/js/default.html)
+* [JQueryチュートリアル](http://www.w3big.com/ja/jquery/default.html)
+
+### PH4-1下記のページを真似して作成してください
 ### 【WIP】 PH4-2下記のページを真似して作成してください
 ### 【WIP】 PH4-3下記のページを真似して作成してください
 
 ## 【WIP】 技術課題PH5
 ### 【WIP】 PH5習得目標
-*  HTTP、HTTPSの通信仕組み
-*  リモートAPIのコール
+* HTTP、HTTPSの通信仕組み
+* リモートAPIのコール
 * 正規表現
 
 ### 【WIP】 PH5-1 下記のサーバーステータス監視仕組みを作成してください

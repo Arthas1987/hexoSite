@@ -1,0 +1,30 @@
+/* Bodyの基礎フォントは Noto Sans JP  */
+body {
+  font-family: 'Noto Sans JP', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 18px;
+}
+
+
+/* 必要クラス  */
+
+.cBanner {
+  font-size: 40px;
+  text-align: center;
+}
+
+.cDisplayNone {
+  display: none;
+  visibility: hidden;
+}
+
+.cIntroParent {
+  width: 100%;
+  height: 100%;
+}
+
+.cIntro {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}

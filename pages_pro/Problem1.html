@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet" type="text/css"/>
+  <link href="css/Problem1.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <title>技術課題 1 </title>
+</head>
+<body>
+  <div id="introParent" class="cIntroParent">
+    <div id="intro" class="cIntro">
+      <p class="cBanner" id="introText"> Problem O.N.E </br></br> Press The Picture below to progress</p>
+    </div>
+    <audio src="static/contra.mp3" autoplay controls style="margin-left: 35%;"> </audio>
+    <img id="introPic" src="static/jpg1.jpg" alt="img" width="640" height="520" style="margin-left: 35%; cursor: pointer">
+  </div>
+
+  <div id="introParentNext" class="cIntroParent cDisplayNone">
+    <a href="Problem2.html"> 次の課題へ進めてくださいー </a>
+  </div>
+
+  <script type="text/javascript">
+  //Global
+  var textBlink = null;
+
+  $(function(){
+    //BlinkInterval
+    textBlink = setInterval(function(){
+      $('#introText').fadeOut(1000,function(){$(this).fadeIn(500)});
+    },1000);
+
+    $( "#introPic" ).on( "click", function() {
+       //Stop Blink interval
+       clearInterval(textBlink);
+       showNextLink();
+    });
+  });
+
+  function showNextLink() {
+    $("#introParent").addClass("cDisplayNone");
+    $("#introParentNext").removeClass("cDisplayNone");
+  };
+  </script>
+</body>
+</html>
