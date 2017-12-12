@@ -119,7 +119,7 @@ tags: [Education, N]
 
 
 ## 【WIP】 技術課題PH4
-### 【WIP】 PH4習得目標
+### PH4習得目標
 * CSSの基本知識
 * CSSクラスの定義方法
 * CSS利用で開発するメリット
@@ -141,6 +141,21 @@ tags: [Education, N]
 [Problem 1](http://snowdays.world/problem/Problem1.html)
 ### PH4-2下記のページを真似して作成してください
 [Problem 2](http://snowdays.world/problem/Problem2.html)
+#### 備考
+* Youtubeの制限により、IPから始まるURL(`localhost`や`http:xx.xx.xx.xx`など)からYoutubeにあるコンテンツをリクエストする時、「このコンテンツの再生が制限されている」という旨のメッセージが表示される可能性あり。そこできちんとドメイン名が付いているURLでテストしたほうがいい(`http://nxxxl-test2.com/problem/Problem2.html`)
+* はなるべくObjectで作成してみてください
+```
+function MusicItem(singer, title, genre, embedCode) {
+      return {
+        singer: singer,
+        title: title,
+        genre: genre,
+        embedCode: embedCode
+      }
+    }
+```
+* 難易度かなり高いと思うが、きちんと勉強できることが多い為、あえてJSを難読化した
+
 ### 【WIP】 PH4-3下記のページを真似して作成してください
 
 ## 【WIP】 技術課題PH5
