@@ -28,3 +28,15 @@ body {
   margin-bottom: 0;
   margin-left: 0;
 }
+
+.cBlockCenter {
+  display:block;
+  margin:0 auto;
+}
+
+.cDivInline {
+  height: 100px;
+  display: inline-block;
+  margin:0 auto;
+  padding-left: 10px;
+}
