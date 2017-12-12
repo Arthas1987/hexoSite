@@ -139,7 +139,8 @@ tags: [Education, N]
 
 ### PH4-1下記のページを真似して作成してください
 [Problem 1](http://snowdays.world/problem/Problem1.html)
-### 【WIP】 PH4-2下記のページを真似して作成してください
+### PH4-2下記のページを真似して作成してください
+[Problem 2](http://snowdays.world/problem/Problem2.html)
 ### 【WIP】 PH4-3下記のページを真似して作成してください
 
 ## 【WIP】 技術課題PH5
