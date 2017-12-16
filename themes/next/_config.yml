@@ -138,7 +138,7 @@ font:
 social:
   GitHub: https://github.com/Arthas1987
   weibo: https://weibo.com/u/1820692723
-  blog: http://150.95.172.80/
+  blog: https://snowdays.world/
   #zhihu:
   #Others:
 
@@ -161,7 +161,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /images/avatar.gif
+avatar: /h/images/avatar.gif
 
 
 # Table Of Contents in the Sidebar
@@ -223,7 +223,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: false
-  length: 150
+  length: 50
 
 # Post meta display settings
 post_meta:
@@ -258,7 +258,7 @@ word_count: true
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: /images/avatar.jpg
+  image: /h/images/avatar.jpg
 
 # Code Highlight theme
 # Available value:
