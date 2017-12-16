@@ -36,7 +36,7 @@ seo: true
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home:  
+  home:
   categories: categories
   archives: archives
   tags: tags
@@ -222,8 +222,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 50
+  enable: true
+  length: 150
 
 # Post meta display settings
 post_meta:
