@@ -36,13 +36,13 @@ seo: true
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /h/
-  categories: /h/categories
-  archives: /h/archives
-  tags: /h/tags
-  about: /h/about
+  home:  
+  categories: categories
+  archives: archives
+  tags: tags
+  about: about
   #sitemap: /sitemap.xml
-  commonweal: /h/404.html
+  commonweal: 404.html
 
 #swiftype_key: F1mVLd_RPaPM-WhSr4A4
 
